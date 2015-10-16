@@ -40,6 +40,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		wl.width = ViewGroup.LayoutParams.MATCH_PARENT;
 		wl.height = ViewGroup.LayoutParams.WRAP_CONTENT;
 
+		
 		// 设置显示位置
 		dialog.onWindowAttributesChanged(wl);
 		// 设置点击外围解散
